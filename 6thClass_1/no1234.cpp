@@ -48,10 +48,10 @@ int main()
 		
 		Sobel(detectMat, BIANYUAN, CV_8UC1, 0, 1, 3,1,0, BORDER_DEFAULT);
 
-		imshow("ZHONGZHI", ZHONGZHI);  //÷–÷µ
-		imshow("JUNZHI", JUNZHI);    //æ˘÷µ
-		imshow("GAOSI", GAOSI);      //∏ﬂÀπ
-		imshow("BIANYUAN", BIANYUAN); //±ﬂ‘µÃ·»°
+		imshow("ZHONGZHI", ZHONGZHI);  //‰∏≠ÂÄº
+		imshow("JUNZHI", JUNZHI);    //ÂùáÂÄº
+		imshow("GAOSI", GAOSI);      //¬∏È´òÊñØ
+		imshow("BIANYUAN", BIANYUAN); //ËæπÁºòÊ£ÄÊµã
 		imshow("frame", rFrame);
 
 		waitKey(30);
